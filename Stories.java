@@ -8,7 +8,7 @@ class Stories {
     private StoriesDataAccess dataOfStories = new StoriesDataAccess();
 
     private int storyCategories() {
-        System.out.println("choose the stories type:" +
+        System.out.println("Choose the stories type:" +
                 "\n 1. Overcoming The Monster" +
                 "\n 2. Rags To Riches" +
                 "\n 3. The Quest" +
@@ -17,7 +17,7 @@ class Stories {
                 "\n 6. Tragedy" +
                 "\n 7. Rebirth" +
                 "\n 8. Random" +
-                "\n \033[1;34m  Enter your choice number : \033[0m" +
+                "\n \033[7;34m  Enter your choice number : \033[0m\033[7;33m" +
                 "\n ( example 2 for The Quest )");
         try {
             choice = in.nextInt();
@@ -71,3 +71,4 @@ class Stories {
     }
 
 }
+
