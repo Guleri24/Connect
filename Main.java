@@ -18,8 +18,10 @@ public class Main {
             Stories callStories = new Stories();
             callStories.choiceAction();
         } else if (num == 2) {
-            Stories chooseStory = new Stories();
-            chooseStory.choiceAction();
+           EnterStories writeStory = new EnterStories();
+           writeStory.enterStories();
+            System.out.println("\033[7;33mWeb page opens were you can access various tools and ideas shared by" +
+                    "writers. >>>>>>>>>>>>>>>>>");
         } else {
             System.out.println("\n\n Invalid value \n \033[1;34m Please  re-enter your choice code : \033[0m  :>");
             main(args);
