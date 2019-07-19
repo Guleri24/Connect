@@ -1,0 +1,14 @@
+package Guleri;
+import java.net.URI;
+import java.awt.Desktop;
+
+ class EnterStories {
+    void enterStories() throws Exception{
+         Desktop UriCall = Desktop.getDesktop();
+        UriCall.browse(new URI("https://storybird.com/start-with-art/picture-book"));
+        System.out.println("Thanks for using Connect................");
+
+    }
+}
+
+
